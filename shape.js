@@ -1,10 +1,10 @@
 function Shape()
 {
-  drawShape: function(){
+  this.drawShape=function(){
     
-  },
-  calculateArea: function() {
+  };
+  this.calculateArea=function(){
     
-  },
-  color: "blue"
+  };
+  this.color: "blue";
 }
